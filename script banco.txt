@@ -1,0 +1,2 @@
+create table aluno (Nome VARCHAR(100), CPF VARCHAR(14) PRIMARY KEY , Endereco VARCHAR(100));
+create table Notas ( Notas1 FLOAT, Notas2 FLOAT , Notas3 FLOAT, CPF VARCHAR(14),Situacao VARCHAR(20),Media FLOAT, FOREIGN KEY(CPF) REFERENCES aluno(CPF)ON DELETE CASCADE);
