@@ -203,6 +203,10 @@ namespace CrudAlunoFade
                     strSql += " AND  aluno.CPF = " + "'" + txt_pesquisacpf.Text + "'" + ";";
                 }
 
+                else if (txt_pesquisaNome.Text.Trim().Equals("") == false && txt_pesquisacpf.MaskCompleted == true)
+                {
+                    strSql += "AND  Aluno.Nome LIKE '%" + txt_pesquisaNome.Text + "%' AND aluno.CPF = " + "'" + txt_pesquisacpf.Text + "'" + ";";
+                }
 
                 databaseConnection = new MySqlConnection(strCon);
 
