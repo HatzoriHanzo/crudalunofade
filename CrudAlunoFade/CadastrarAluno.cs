@@ -189,7 +189,7 @@ namespace CrudAlunoFade
             try
             {
                 dtb = new DataTable();
-                strSql = "select aluno.nome , aluno.CPF , notas.Situacao , notas.Media from aluno join notas on aluno.CPF = notas.CPF where aluno.CPF is not null ";
+                strSql = "select aluno.nome as 'Nome :' , aluno.CPF as 'CPF :', notas.Situacao as 'Situacao :', notas.Media as 'Media :' from aluno join notas on aluno.CPF = notas.CPF where aluno.CPF is not null ";
 
                 if (txt_pesquisacpf.MaskCompleted == false)
                 {

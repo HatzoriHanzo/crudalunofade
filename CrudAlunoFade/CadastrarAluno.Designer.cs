@@ -162,7 +162,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(475, 206);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(304, 168);
+            this.dataGridView1.Size = new System.Drawing.Size(387, 168);
             this.dataGridView1.TabIndex = 14;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -170,7 +170,7 @@
             // 
             this.btn_Consultar.BackColor = System.Drawing.Color.Silver;
             this.btn_Consultar.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Consultar.Location = new System.Drawing.Point(92, 79);
+            this.btn_Consultar.Location = new System.Drawing.Point(140, 79);
             this.btn_Consultar.Name = "btn_Consultar";
             this.btn_Consultar.Size = new System.Drawing.Size(113, 44);
             this.btn_Consultar.TabIndex = 15;
@@ -202,7 +202,7 @@
             // 
             // txt_pesquisaNome
             // 
-            this.txt_pesquisaNome.Location = new System.Drawing.Point(171, 14);
+            this.txt_pesquisaNome.Location = new System.Drawing.Point(215, 11);
             this.txt_pesquisaNome.Name = "txt_pesquisaNome";
             this.txt_pesquisaNome.Size = new System.Drawing.Size(128, 22);
             this.txt_pesquisaNome.TabIndex = 18;
@@ -213,7 +213,7 @@
             this.lbl_nome.AutoSize = true;
             this.lbl_nome.BackColor = System.Drawing.Color.Silver;
             this.lbl_nome.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_nome.Location = new System.Drawing.Point(-2, 14);
+            this.lbl_nome.Location = new System.Drawing.Point(20, 17);
             this.lbl_nome.Name = "lbl_nome";
             this.lbl_nome.Size = new System.Drawing.Size(176, 16);
             this.lbl_nome.TabIndex = 19;
@@ -224,7 +224,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Silver;
             this.label7.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(1, 45);
+            this.label7.Location = new System.Drawing.Point(20, 51);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(165, 16);
             this.label7.TabIndex = 20;
@@ -232,7 +232,7 @@
             // 
             // txt_pesquisacpf
             // 
-            this.txt_pesquisacpf.Location = new System.Drawing.Point(172, 45);
+            this.txt_pesquisacpf.Location = new System.Drawing.Point(215, 45);
             this.txt_pesquisacpf.Mask = "000.000.000-00";
             this.txt_pesquisacpf.Name = "txt_pesquisacpf";
             this.txt_pesquisacpf.Size = new System.Drawing.Size(106, 22);
@@ -244,7 +244,7 @@
             this.sairToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(895, 24);
             this.menuStrip1.TabIndex = 22;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -267,7 +267,7 @@
             this.panel1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(475, 71);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(304, 129);
+            this.panel1.Size = new System.Drawing.Size(387, 129);
             this.panel1.TabIndex = 24;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -329,7 +329,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(895, 450);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
